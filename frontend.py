@@ -57,7 +57,7 @@ if prompt := st.chat_input("Ask your farming question..."):
     st.session_state.messages.append({"role": "user", "content": prompt})
     
     # Display user message
-    with st.chat_message("user", avatar="👨🌾"):
+    with st.chat_message("user", avatar="user"):
         st.markdown(prompt)
     
     # Get AI response

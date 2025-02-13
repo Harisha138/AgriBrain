@@ -50,3 +50,11 @@ class AgriBrain:
         return response.text
 
 agribrain = AgriBrain()
+try:
+    import pwd
+except ImportError:
+    # Handle the case where pwd is not available (e.g., on Windows)
+    class PwdDummy:
+        def getpwuid(self, uid):
+            return "dummy_user"
+    pwd = PwdDummy()
