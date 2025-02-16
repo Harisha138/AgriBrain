@@ -6,8 +6,8 @@ To ensure your application runs correctly, follow these steps to configure envir
 
 1️⃣ Create a .env File
 Since the .env file is ignored in Git for security reasons, you need to create one manually:
-
 cp .env.example .env
+
 2️⃣ Add Your Environment Variables
 Open the .env file and add your API key:
 GOOGLE_API_KEY=your_google_api_key_here
