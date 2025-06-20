@@ -1,10 +1,10 @@
----
+
 
 # 🌾 **AgriBrain**
 
 *AI-powered chatbot for smart farming using Google’s Gemini API & RAG architecture*
 
----
+
 
 ## ⚙️ **Environment Setup**
 
